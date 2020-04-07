@@ -1,0 +1,28 @@
+PODS:
+  - Alamofire (5.0.5)
+  - MJRefresh (3.3.1)
+  - SnapKit (5.0.1)
+  - SwiftyJSON (5.0.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - MJRefresh
+  - SnapKit
+  - SwiftyJSON
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - MJRefresh
+    - SnapKit
+    - SwiftyJSON
+
+SPEC CHECKSUMS:
+  Alamofire: df2f8f826963b08b9a870791ad48e07a10090b2e
+  MJRefresh: eeda70fbf0ad277f3178cef1cd0c3532591d6237
+  SnapKit: 97b92857e3df3a0c71833cce143274bf6ef8e5eb
+  SwiftyJSON: 36413e04c44ee145039d332b4f4e2d3e8d6c4db7
+
+PODFILE CHECKSUM: 921259a369de548fdfc36916ca041c0417e627f7
+
+COCOAPODS: 1.9.1

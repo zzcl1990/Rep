@@ -3,18 +3,60 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9EA9AB25242EECAE00DDCB4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9AB24242EECAE00DDCB4A /* AppDelegate.swift */; };
-		9EA9AB27242EECAE00DDCB4A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9AB26242EECAE00DDCB4A /* SceneDelegate.swift */; };
-		9EA9AB29242EECAE00DDCB4A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9AB28242EECAE00DDCB4A /* ViewController.swift */; };
+		70B5E2E58615D17C264D939B /* Pods_Moments.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65B43780F16CD3702348BB48 /* Pods_Moments.framework */; };
+		9E11914F24377CEB00E058C0 /* ImageDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11914E24377CEB00E058C0 /* ImageDownloader.swift */; };
+		9E11915124377D0600E058C0 /* DownloadTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915024377D0600E058C0 /* DownloadTask.swift */; };
+		9E11915324377D1D00E058C0 /* DownloadSessionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915224377D1D00E058C0 /* DownloadSessionDelegate.swift */; };
+		9E11915524377D3F00E058C0 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915424377D3F00E058C0 /* ImageProcessor.swift */; };
+		9E11915724378C0C00E058C0 /* ImageCacheManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915624378C0C00E058C0 /* ImageCacheManager.swift */; };
+		9E1191592438400F00E058C0 /* WeakProxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1191582438400F00E058C0 /* WeakProxy.swift */; };
+		9E11915B24385B1500E058C0 /* ImageCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915A24385B1500E058C0 /* ImageCacheTests.swift */; };
+		9E11915D243881D300E058C0 /* CacheStorageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915C243881D300E058C0 /* CacheStorageTests.swift */; };
+		9E11915F243881E500E058C0 /* TemplateMapperTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11915E243881E500E058C0 /* TemplateMapperTests.swift */; };
+		9E11947F2438D73400E058C0 /* MomentHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E11947E2438D73400E058C0 /* MomentHeaderView.swift */; };
+		9E1194812439B96A00E058C0 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1194802439B96A00E058C0 /* Color+Extension.swift */; };
+		9E1194832439C0D900E058C0 /* MomentCommentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E1194822439C0D900E058C0 /* MomentCommentView.swift */; };
+		9E4A0A46242EF4570005E22A /* MomentCellTemplateMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0A38242EF4570005E22A /* MomentCellTemplateMapper.swift */; };
+		9E4A0A48242EF4570005E22A /* Moment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0A3D242EF4570005E22A /* Moment.swift */; };
+		9E4A0A49242EF4570005E22A /* MomentsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0A3E242EF4570005E22A /* MomentsDataSource.swift */; };
+		9E4A0A4A242EF4570005E22A /* MomentsStream.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0A3F242EF4570005E22A /* MomentsStream.swift */; };
+		9E4A0A4B242EF4570005E22A /* MomentsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0A41242EF4570005E22A /* MomentsDelegate.swift */; };
+		9E4A0BE3242EFA060005E22A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0BDF242EFA060005E22A /* ViewController.swift */; };
+		9E4A0BE4242EFA060005E22A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0BE0242EFA060005E22A /* AppDelegate.swift */; };
+		9E4A0BE6242EFA060005E22A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0BE2242EFA060005E22A /* SceneDelegate.swift */; };
+		9E4A0BE9242EFA1B0005E22A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4A0BE8242EFA1B0005E22A /* Assets.xcassets */; };
+		9E4A0BEE242F2CBD0005E22A /* MomentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0BED242F2CBD0005E22A /* MomentsViewController.swift */; };
+		9E4A0BF0242F2D020005E22A /* MomentsTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0BEF242F2D020005E22A /* MomentsTableView.swift */; };
+		9E4A0BF3242F7E610005E22A /* MapperService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0BF2242F7E610005E22A /* MapperService.swift */; };
+		9E4A0D84242F92840005E22A /* MomentCellFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4A0D83242F92840005E22A /* MomentCellFactory.swift */; };
 		9EA9AB2C242EECAE00DDCB4A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA9AB2A242EECAE00DDCB4A /* Main.storyboard */; };
-		9EA9AB2E242EECB000DDCB4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9EA9AB2D242EECB000DDCB4A /* Assets.xcassets */; };
 		9EA9AB31242EECB000DDCB4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9EA9AB2F242EECB000DDCB4A /* LaunchScreen.storyboard */; };
 		9EA9AB3C242EECB000DDCB4A /* MomentsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9AB3B242EECB000DDCB4A /* MomentsTests.swift */; };
 		9EA9AB47242EECB000DDCB4A /* MomentsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EA9AB46242EECB000DDCB4A /* MomentsUITests.swift */; };
+		9ECDFD7F24346BFC00986A45 /* ImageCacheError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD7E24346BFC00986A45 /* ImageCacheError.swift */; };
+		9ECDFD812434820500986A45 /* ExtensionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD802434820500986A45 /* ExtensionHelper.swift */; };
+		9ECDFD882434839100986A45 /* ImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD832434839100986A45 /* ImageCache.swift */; };
+		9ECDFD892434839100986A45 /* Storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD852434839100986A45 /* Storage.swift */; };
+		9ECDFD8A2434839100986A45 /* MemoryStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD862434839100986A45 /* MemoryStorage.swift */; };
+		9ECDFD8B2434839100986A45 /* DiskStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD872434839100986A45 /* DiskStorage.swift */; };
+		9ECDFD8F2434885800986A45 /* ImageView+Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD8E2434885800986A45 /* ImageView+Cache.swift */; };
+		9ECDFD9124349F6700986A45 /* ImageCacheOptions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD9024349F6700986A45 /* ImageCacheOptions.swift */; };
+		9ECDFD932434A1E500986A45 /* ImageFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD922434A1E500986A45 /* ImageFormat.swift */; };
+		9ECDFD952434A2F200986A45 /* ImageSerializer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ECDFD942434A2F200986A45 /* ImageSerializer.swift */; };
+		9ED836FB2433202F00BD4B46 /* DataFetch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9ED836FA2433202F00BD4B46 /* DataFetch.swift */; };
+		9EE9816624309DD500F4ACB0 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9816524309DD500F4ACB0 /* String+Extension.swift */; };
+		9EE9816E24309F5800F4ACB0 /* MomentVideoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9816824309F5700F4ACB0 /* MomentVideoTableViewCell.swift */; };
+		9EE9816F24309F5800F4ACB0 /* MomnetADTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9816A24309F5800F4ACB0 /* MomnetADTableViewCell.swift */; };
+		9EE9817024309F5800F4ACB0 /* MomentImagesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9816C24309F5800F4ACB0 /* MomentImagesView.swift */; };
+		9EE9817124309F5800F4ACB0 /* MomentTextImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9816D24309F5800F4ACB0 /* MomentTextImageTableViewCell.swift */; };
+		9EE9817424309F8900F4ACB0 /* MomentCellLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9817224309F8900F4ACB0 /* MomentCellLayout.swift */; };
+		9EE9817524309F8900F4ACB0 /* MomentCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE9817324309F8900F4ACB0 /* MomentCell.swift */; };
+		9EE981782430A08A00F4ACB0 /* Define.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE981772430A08A00F4ACB0 /* Define.swift */; };
+		9EE9817A243103CF00F4ACB0 /* StreamResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9EE98179243103CF00F4ACB0 /* StreamResult.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,20 +77,64 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65B43780F16CD3702348BB48 /* Pods_Moments.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Moments.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E11914E24377CEB00E058C0 /* ImageDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloader.swift; sourceTree = "<group>"; };
+		9E11915024377D0600E058C0 /* DownloadTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadTask.swift; sourceTree = "<group>"; };
+		9E11915224377D1D00E058C0 /* DownloadSessionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadSessionDelegate.swift; sourceTree = "<group>"; };
+		9E11915424377D3F00E058C0 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		9E11915624378C0C00E058C0 /* ImageCacheManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheManager.swift; sourceTree = "<group>"; };
+		9E1191582438400F00E058C0 /* WeakProxy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeakProxy.swift; sourceTree = "<group>"; };
+		9E11915A24385B1500E058C0 /* ImageCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheTests.swift; sourceTree = "<group>"; };
+		9E11915C243881D300E058C0 /* CacheStorageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CacheStorageTests.swift; sourceTree = "<group>"; };
+		9E11915E243881E500E058C0 /* TemplateMapperTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateMapperTests.swift; sourceTree = "<group>"; };
+		9E11947E2438D73400E058C0 /* MomentHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentHeaderView.swift; sourceTree = "<group>"; };
+		9E1194802439B96A00E058C0 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		9E1194822439C0D900E058C0 /* MomentCommentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCommentView.swift; sourceTree = "<group>"; };
+		9E4A0A38242EF4570005E22A /* MomentCellTemplateMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentCellTemplateMapper.swift; sourceTree = "<group>"; };
+		9E4A0A3D242EF4570005E22A /* Moment.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Moment.swift; sourceTree = "<group>"; };
+		9E4A0A3E242EF4570005E22A /* MomentsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsDataSource.swift; sourceTree = "<group>"; };
+		9E4A0A3F242EF4570005E22A /* MomentsStream.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsStream.swift; sourceTree = "<group>"; };
+		9E4A0A41242EF4570005E22A /* MomentsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentsDelegate.swift; sourceTree = "<group>"; };
+		9E4A0BDF242EFA060005E22A /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		9E4A0BE0242EFA060005E22A /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		9E4A0BE2242EFA060005E22A /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		9E4A0BE8242EFA1B0005E22A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E4A0BEB242F08070005E22A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E4A0BED242F2CBD0005E22A /* MomentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsViewController.swift; sourceTree = "<group>"; };
+		9E4A0BEF242F2D020005E22A /* MomentsTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsTableView.swift; sourceTree = "<group>"; };
+		9E4A0BF2242F7E610005E22A /* MapperService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapperService.swift; sourceTree = "<group>"; };
+		9E4A0D83242F92840005E22A /* MomentCellFactory.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentCellFactory.swift; sourceTree = "<group>"; };
 		9EA9AB21242EECAE00DDCB4A /* Moments.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Moments.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		9EA9AB24242EECAE00DDCB4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		9EA9AB26242EECAE00DDCB4A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		9EA9AB28242EECAE00DDCB4A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		9EA9AB2B242EECAE00DDCB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		9EA9AB2D242EECB000DDCB4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9EA9AB30242EECB000DDCB4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		9EA9AB32242EECB000DDCB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA9AB37242EECB000DDCB4A /* MomentsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA9AB3B242EECB000DDCB4A /* MomentsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsTests.swift; sourceTree = "<group>"; };
 		9EA9AB3D242EECB000DDCB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9EA9AB42242EECB000DDCB4A /* MomentsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MomentsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9EA9AB46242EECB000DDCB4A /* MomentsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MomentsUITests.swift; sourceTree = "<group>"; };
 		9EA9AB48242EECB000DDCB4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9ECDFD7E24346BFC00986A45 /* ImageCacheError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheError.swift; sourceTree = "<group>"; };
+		9ECDFD802434820500986A45 /* ExtensionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionHelper.swift; sourceTree = "<group>"; };
+		9ECDFD832434839100986A45 /* ImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageCache.swift; sourceTree = "<group>"; };
+		9ECDFD852434839100986A45 /* Storage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storage.swift; sourceTree = "<group>"; };
+		9ECDFD862434839100986A45 /* MemoryStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MemoryStorage.swift; sourceTree = "<group>"; };
+		9ECDFD872434839100986A45 /* DiskStorage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiskStorage.swift; sourceTree = "<group>"; };
+		9ECDFD8E2434885800986A45 /* ImageView+Cache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ImageView+Cache.swift"; sourceTree = "<group>"; };
+		9ECDFD9024349F6700986A45 /* ImageCacheOptions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageCacheOptions.swift; sourceTree = "<group>"; };
+		9ECDFD922434A1E500986A45 /* ImageFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageFormat.swift; sourceTree = "<group>"; };
+		9ECDFD942434A2F200986A45 /* ImageSerializer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSerializer.swift; sourceTree = "<group>"; };
+		9ED836FA2433202F00BD4B46 /* DataFetch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataFetch.swift; sourceTree = "<group>"; };
+		9EE9816524309DD500F4ACB0 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		9EE9816824309F5700F4ACB0 /* MomentVideoTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentVideoTableViewCell.swift; sourceTree = "<group>"; };
+		9EE9816A24309F5800F4ACB0 /* MomnetADTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomnetADTableViewCell.swift; sourceTree = "<group>"; };
+		9EE9816C24309F5800F4ACB0 /* MomentImagesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentImagesView.swift; sourceTree = "<group>"; };
+		9EE9816D24309F5800F4ACB0 /* MomentTextImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MomentTextImageTableViewCell.swift; sourceTree = "<group>"; };
+		9EE9817224309F8900F4ACB0 /* MomentCellLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MomentCellLayout.swift; path = Moments/Source/UI/MomentCellLayout.swift; sourceTree = SOURCE_ROOT; };
+		9EE9817324309F8900F4ACB0 /* MomentCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MomentCell.swift; path = Moments/Source/UI/MomentCell.swift; sourceTree = SOURCE_ROOT; };
+		9EE981772430A08A00F4ACB0 /* Define.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Define.swift; sourceTree = "<group>"; };
+		9EE98179243103CF00F4ACB0 /* StreamResult.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamResult.swift; sourceTree = "<group>"; };
+		A8174AC2C69628EC452AE247 /* Pods-Moments.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.debug.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.debug.xcconfig"; sourceTree = "<group>"; };
+		D590FB1CCDE0AFC6004876E3 /* Pods-Moments.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Moments.release.xcconfig"; path = "Target Support Files/Pods-Moments/Pods-Moments.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +142,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				70B5E2E58615D17C264D939B /* Pods_Moments.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -76,6 +163,115 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B79E09D631DA31C88A662D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				65B43780F16CD3702348BB48 /* Pods_Moments.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9E4A0A2E242EF4570005E22A /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				9EE981762430A04900F4ACB0 /* Define */,
+				9EE9816424309DC200F4ACB0 /* Extension */,
+				9E4A0A2F242EF4570005E22A /* UI */,
+				9E4A0A36242EF4570005E22A /* Util */,
+				9E4A0A37242EF4570005E22A /* Mapper */,
+				9E4A0A3A242EF4570005E22A /* ViewController */,
+				9E4A0A3C242EF4570005E22A /* Data */,
+				9E4A0A40242EF4570005E22A /* Interactor */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		9E4A0A2F242EF4570005E22A /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0A31242EF4570005E22A /* Cell */,
+				9E4A0BEF242F2D020005E22A /* MomentsTableView.swift */,
+				9E11947E2438D73400E058C0 /* MomentHeaderView.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		9E4A0A31242EF4570005E22A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9817324309F8900F4ACB0 /* MomentCell.swift */,
+				9EE9817224309F8900F4ACB0 /* MomentCellLayout.swift */,
+				9EE9816924309F5800F4ACB0 /* AD */,
+				9EE9816B24309F5800F4ACB0 /* TextImage */,
+				9EE9816724309F5700F4ACB0 /* Video */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		9E4A0A36242EF4570005E22A /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				9E1191582438400F00E058C0 /* WeakProxy.swift */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		9E4A0A37242EF4570005E22A /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0A38242EF4570005E22A /* MomentCellTemplateMapper.swift */,
+				9E4A0BF2242F7E610005E22A /* MapperService.swift */,
+				9E4A0D83242F92840005E22A /* MomentCellFactory.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		9E4A0A3A242EF4570005E22A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0BED242F2CBD0005E22A /* MomentsViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		9E4A0A3C242EF4570005E22A /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0A3D242EF4570005E22A /* Moment.swift */,
+				9E4A0A3E242EF4570005E22A /* MomentsDataSource.swift */,
+				9E4A0A3F242EF4570005E22A /* MomentsStream.swift */,
+				9EE98179243103CF00F4ACB0 /* StreamResult.swift */,
+				9ED836FA2433202F00BD4B46 /* DataFetch.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		9E4A0A40242EF4570005E22A /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0A41242EF4570005E22A /* MomentsDelegate.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		9E4A0BDE242EFA060005E22A /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0BDF242EFA060005E22A /* ViewController.swift */,
+				9E4A0BE0242EFA060005E22A /* AppDelegate.swift */,
+				9E4A0BE2242EFA060005E22A /* SceneDelegate.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		9E4A0BE7242EFA1B0005E22A /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E4A0BE8242EFA1B0005E22A /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		9EA9AB18242EECAE00DDCB4A = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +279,8 @@
 				9EA9AB3A242EECB000DDCB4A /* MomentsTests */,
 				9EA9AB45242EECB000DDCB4A /* MomentsUITests */,
 				9EA9AB22242EECAE00DDCB4A /* Products */,
+				FB00EEB0C632D33F2B81A4BF /* Pods */,
+				1B79E09D631DA31C88A662D2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +297,13 @@
 		9EA9AB23242EECAE00DDCB4A /* Moments */ = {
 			isa = PBXGroup;
 			children = (
-				9EA9AB24242EECAE00DDCB4A /* AppDelegate.swift */,
-				9EA9AB26242EECAE00DDCB4A /* SceneDelegate.swift */,
-				9EA9AB28242EECAE00DDCB4A /* ViewController.swift */,
+				9ECDFD752434691E00986A45 /* ImageCache */,
+				9E4A0BEB242F08070005E22A /* Info.plist */,
+				9E4A0BE7242EFA1B0005E22A /* Resources */,
+				9E4A0BDE242EFA060005E22A /* Application */,
+				9E4A0A2E242EF4570005E22A /* Source */,
 				9EA9AB2A242EECAE00DDCB4A /* Main.storyboard */,
-				9EA9AB2D242EECB000DDCB4A /* Assets.xcassets */,
 				9EA9AB2F242EECB000DDCB4A /* LaunchScreen.storyboard */,
-				9EA9AB32242EECB000DDCB4A /* Info.plist */,
 			);
 			path = Moments;
 			sourceTree = "<group>";
@@ -115,6 +313,9 @@
 			children = (
 				9EA9AB3B242EECB000DDCB4A /* MomentsTests.swift */,
 				9EA9AB3D242EECB000DDCB4A /* Info.plist */,
+				9E11915A24385B1500E058C0 /* ImageCacheTests.swift */,
+				9E11915C243881D300E058C0 /* CacheStorageTests.swift */,
+				9E11915E243881E500E058C0 /* TemplateMapperTests.swift */,
 			);
 			path = MomentsTests;
 			sourceTree = "<group>";
@@ -128,6 +329,112 @@
 			path = MomentsUITests;
 			sourceTree = "<group>";
 		};
+		9ECDFD752434691E00986A45 /* ImageCache */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDFD8D243483B400986A45 /* Image */,
+				9ECDFD8C243483B400986A45 /* Network */,
+				9ECDFD822434839100986A45 /* Cache */,
+				9ECDFD7E24346BFC00986A45 /* ImageCacheError.swift */,
+				9ECDFD802434820500986A45 /* ExtensionHelper.swift */,
+				9ECDFD8E2434885800986A45 /* ImageView+Cache.swift */,
+			);
+			path = ImageCache;
+			sourceTree = "<group>";
+		};
+		9ECDFD822434839100986A45 /* Cache */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDFD9024349F6700986A45 /* ImageCacheOptions.swift */,
+				9ECDFD832434839100986A45 /* ImageCache.swift */,
+				9ECDFD842434839100986A45 /* Storage */,
+			);
+			path = Cache;
+			sourceTree = "<group>";
+		};
+		9ECDFD842434839100986A45 /* Storage */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDFD852434839100986A45 /* Storage.swift */,
+				9ECDFD862434839100986A45 /* MemoryStorage.swift */,
+				9ECDFD872434839100986A45 /* DiskStorage.swift */,
+			);
+			path = Storage;
+			sourceTree = "<group>";
+		};
+		9ECDFD8C243483B400986A45 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				9E11914E24377CEB00E058C0 /* ImageDownloader.swift */,
+				9E11915024377D0600E058C0 /* DownloadTask.swift */,
+				9E11915224377D1D00E058C0 /* DownloadSessionDelegate.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		9ECDFD8D243483B400986A45 /* Image */ = {
+			isa = PBXGroup;
+			children = (
+				9ECDFD922434A1E500986A45 /* ImageFormat.swift */,
+				9ECDFD942434A2F200986A45 /* ImageSerializer.swift */,
+				9E11915424377D3F00E058C0 /* ImageProcessor.swift */,
+				9E11915624378C0C00E058C0 /* ImageCacheManager.swift */,
+			);
+			path = Image;
+			sourceTree = "<group>";
+		};
+		9EE9816424309DC200F4ACB0 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9816524309DD500F4ACB0 /* String+Extension.swift */,
+				9E1194802439B96A00E058C0 /* Color+Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		9EE9816724309F5700F4ACB0 /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9816824309F5700F4ACB0 /* MomentVideoTableViewCell.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		9EE9816924309F5800F4ACB0 /* AD */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9816A24309F5800F4ACB0 /* MomnetADTableViewCell.swift */,
+			);
+			path = AD;
+			sourceTree = "<group>";
+		};
+		9EE9816B24309F5800F4ACB0 /* TextImage */ = {
+			isa = PBXGroup;
+			children = (
+				9EE9816C24309F5800F4ACB0 /* MomentImagesView.swift */,
+				9E1194822439C0D900E058C0 /* MomentCommentView.swift */,
+				9EE9816D24309F5800F4ACB0 /* MomentTextImageTableViewCell.swift */,
+			);
+			path = TextImage;
+			sourceTree = "<group>";
+		};
+		9EE981762430A04900F4ACB0 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				9EE981772430A08A00F4ACB0 /* Define.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		FB00EEB0C632D33F2B81A4BF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A8174AC2C69628EC452AE247 /* Pods-Moments.debug.xcconfig */,
+				D590FB1CCDE0AFC6004876E3 /* Pods-Moments.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +442,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9EA9AB4B242EECB000DDCB4A /* Build configuration list for PBXNativeTarget "Moments" */;
 			buildPhases = (
+				44A30162BDE407CD1FDAE0A3 /* [CP] Check Pods Manifest.lock */,
 				9EA9AB1D242EECAE00DDCB4A /* Sources */,
 				9EA9AB1E242EECAE00DDCB4A /* Frameworks */,
 				9EA9AB1F242EECAE00DDCB4A /* Resources */,
+				2275F542BEBE7D57797F6F37 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -233,7 +542,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9EA9AB31242EECB000DDCB4A /* LaunchScreen.storyboard in Resources */,
-				9EA9AB2E242EECB000DDCB4A /* Assets.xcassets in Resources */,
+				9E4A0BE9242EFA1B0005E22A /* Assets.xcassets in Resources */,
 				9EA9AB2C242EECAE00DDCB4A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -254,14 +563,94 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2275F542BEBE7D57797F6F37 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moments/Pods-Moments-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Moments/Pods-Moments-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Moments/Pods-Moments-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		44A30162BDE407CD1FDAE0A3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Moments-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9EA9AB1D242EECAE00DDCB4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9EA9AB29242EECAE00DDCB4A /* ViewController.swift in Sources */,
-				9EA9AB25242EECAE00DDCB4A /* AppDelegate.swift in Sources */,
-				9EA9AB27242EECAE00DDCB4A /* SceneDelegate.swift in Sources */,
+				9E4A0BE4242EFA060005E22A /* AppDelegate.swift in Sources */,
+				9EE9817524309F8900F4ACB0 /* MomentCell.swift in Sources */,
+				9E4A0A46242EF4570005E22A /* MomentCellTemplateMapper.swift in Sources */,
+				9EE9817024309F5800F4ACB0 /* MomentImagesView.swift in Sources */,
+				9E4A0A48242EF4570005E22A /* Moment.swift in Sources */,
+				9E4A0BF0242F2D020005E22A /* MomentsTableView.swift in Sources */,
+				9E11915324377D1D00E058C0 /* DownloadSessionDelegate.swift in Sources */,
+				9E4A0D84242F92840005E22A /* MomentCellFactory.swift in Sources */,
+				9E1191592438400F00E058C0 /* WeakProxy.swift in Sources */,
+				9E4A0BE3242EFA060005E22A /* ViewController.swift in Sources */,
+				9E11947F2438D73400E058C0 /* MomentHeaderView.swift in Sources */,
+				9ECDFD932434A1E500986A45 /* ImageFormat.swift in Sources */,
+				9E11915524377D3F00E058C0 /* ImageProcessor.swift in Sources */,
+				9E11915724378C0C00E058C0 /* ImageCacheManager.swift in Sources */,
+				9ECDFD8B2434839100986A45 /* DiskStorage.swift in Sources */,
+				9E4A0A4A242EF4570005E22A /* MomentsStream.swift in Sources */,
+				9EE9816624309DD500F4ACB0 /* String+Extension.swift in Sources */,
+				9ECDFD882434839100986A45 /* ImageCache.swift in Sources */,
+				9ECDFD952434A2F200986A45 /* ImageSerializer.swift in Sources */,
+				9EE9817424309F8900F4ACB0 /* MomentCellLayout.swift in Sources */,
+				9E4A0BE6242EFA060005E22A /* SceneDelegate.swift in Sources */,
+				9EE9817124309F5800F4ACB0 /* MomentTextImageTableViewCell.swift in Sources */,
+				9ECDFD812434820500986A45 /* ExtensionHelper.swift in Sources */,
+				9E11915124377D0600E058C0 /* DownloadTask.swift in Sources */,
+				9EE9816F24309F5800F4ACB0 /* MomnetADTableViewCell.swift in Sources */,
+				9ECDFD9124349F6700986A45 /* ImageCacheOptions.swift in Sources */,
+				9ECDFD7F24346BFC00986A45 /* ImageCacheError.swift in Sources */,
+				9E4A0A49242EF4570005E22A /* MomentsDataSource.swift in Sources */,
+				9E4A0BEE242F2CBD0005E22A /* MomentsViewController.swift in Sources */,
+				9EE9817A243103CF00F4ACB0 /* StreamResult.swift in Sources */,
+				9E4A0BF3242F7E610005E22A /* MapperService.swift in Sources */,
+				9E1194812439B96A00E058C0 /* Color+Extension.swift in Sources */,
+				9ED836FB2433202F00BD4B46 /* DataFetch.swift in Sources */,
+				9ECDFD8F2434885800986A45 /* ImageView+Cache.swift in Sources */,
+				9E4A0A4B242EF4570005E22A /* MomentsDelegate.swift in Sources */,
+				9E11914F24377CEB00E058C0 /* ImageDownloader.swift in Sources */,
+				9EE981782430A08A00F4ACB0 /* Define.swift in Sources */,
+				9ECDFD8A2434839100986A45 /* MemoryStorage.swift in Sources */,
+				9EE9816E24309F5800F4ACB0 /* MomentVideoTableViewCell.swift in Sources */,
+				9ECDFD892434839100986A45 /* Storage.swift in Sources */,
+				9E1194832439C0D900E058C0 /* MomentCommentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +658,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9E11915F243881E500E058C0 /* TemplateMapperTests.swift in Sources */,
+				9E11915D243881D300E058C0 /* CacheStorageTests.swift in Sources */,
+				9E11915B24385B1500E058C0 /* ImageCacheTests.swift in Sources */,
 				9EA9AB3C242EECB000DDCB4A /* MomentsTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -432,6 +824,7 @@
 		};
 		9EA9AB4C242EECB000DDCB4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8174AC2C69628EC452AE247 /* Pods-Moments.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,6 +843,7 @@
 		};
 		9EA9AB4D242EECB000DDCB4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D590FB1CCDE0AFC6004876E3 /* Pods-Moments.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
